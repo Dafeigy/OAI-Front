@@ -174,5 +174,17 @@ div >svg{
 
 #more,#user>svg,#settings,#about,#tool,#dashboard,#home,#message{
     cursor: pointer;
+    transition: all 0.4s;
 }
 
+#more:hover,
+#settings:hover,
+#about:hover,
+#tool:hover,
+#dashboard:hover,
+#home:hover,
+#message:hover{
+    /* cursor: pointer; */
+    color: rgb(88, 196, 179);
+    transition: all 0.3s;
+}
