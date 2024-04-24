@@ -160,15 +160,27 @@ div >svg{
 }
 
 
-#componets{
+#components{
+
+    border-radius: 1rem;
     display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 50vh;
+    margin-top: 1rem;
+    /* background-color: brown; */
 }
 
-#componets >div{
-    width: 20%;
-    height: 10%;
-    background-color: aquamarine;
+#components >div{
+    width: 50%;
+    height: 30%;
+    /* background-color: aquamarine; */
+    margin: auto;
+    border-radius: 1rem;
+    border: solid 1px rgb(88, 196, 179);;
+    /* margin-top: 1rem; */
 }
+
 
 
 
@@ -187,4 +199,89 @@ div >svg{
     /* cursor: pointer; */
     color: rgb(88, 196, 179);
     transition: all 0.3s;
+}
+
+
+#homepage-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#homepage-AppName{
+    text-align: center;
+    font-size: 24px;
+    text-decoration: solid;
+    margin-top: 1rem;
+}
+
+#homepage-time{
+    font-size: 48px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#homepage-more-info{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0.5rem;
+    color: #888;
+}
+
+#homepage-start{
+    margin-top: 5rem;
+}
+
+.components-icon{
+    width:6vw;
+    height:6vw ;
+}
+
+.components{
+    display: flex;
+    align-items: center;
+}
+.components >div{
+    margin-left: 1rem;
+}
+
+.components-content{
+    display: flex;
+    flex-direction: column;
+    /* background-color: blanchedalmond; */
+    width: 60%;
+    height: 6vw;
+    justify-content: center;
+}
+
+.components-action{
+    display: flex;
+    width: 3vw;
+    height: 3vw;
+    /* background-color: coral; */
+    align-items: center;
+    justify-content: center;
+    /* margin: auto; */
+}
+
+.components-action >svg{
+    width: 20px;
+    height: 20px;
+}
+
+.components-details{
+    font-size: 12px;
+    margin-top: 1rem;
+}
+
+.components-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.components-icon >svg{
+    width: 48px;
+    height: 48px;
 }
