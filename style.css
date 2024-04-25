@@ -148,7 +148,20 @@ div >svg{
     align-items: center;
 }
 
+#header-middle{
 
+    position: absolute;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header-middle>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
 #header-right{
     width: 5vw;
     /* background-color: coral; */
@@ -269,18 +282,22 @@ div >svg{
     width: 32px;
     height: 32px;
     cursor: pointer;
-    background-color: #fff;
+    transition: all 0.4s;
+ 
     /* transition: 0.5s linear ease-in-out; */
 }
+
 .components-action >svg:hover{
-    position: relative;
-    bottom:10%;
-    /* transition: 1s ease-in-out; */
+    /* box-shadow: 1px 1px 0 5px #888; */
+    transition: all 0.4s;
+    transform: translate(20%,0);
+    /* transition: 0.5s linear ease-in-out; */
 }
 
 .components-details{
     font-size: 12px;
     margin-top: 1rem;
+    color: #888;
 }
 
 .components-icon{
@@ -292,4 +309,20 @@ div >svg{
 .components-icon >svg{
     width: 48px;
     height: 48px;
+}
+
+
+a{
+    text-decoration: none;
+    color: #888;
+    transition: all 0.4s;
+}
+
+a:hover{
+    transition: all 0.4s;
+    color: rgb(88, 196, 179);
+}
+
+#homepage-container{
+    display: none;
 }
