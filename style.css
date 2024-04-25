@@ -266,8 +266,16 @@ div >svg{
 }
 
 .components-action >svg{
-    width: 20px;
-    height: 20px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    background-color: #fff;
+    /* transition: 0.5s linear ease-in-out; */
+}
+.components-action >svg:hover{
+    position: relative;
+    bottom:10%;
+    /* transition: 1s ease-in-out; */
 }
 
 .components-details{
