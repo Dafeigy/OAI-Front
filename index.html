@@ -4,8 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OAI-Front</title>
     <link rel="stylesheet" href="style.css">
-    <script src="js/main.js"></script>
-    <script src="js/echarts.min.js"></script>
+    
 </head>
 <body>
     <div id="header">
@@ -143,6 +142,25 @@
                         </div>
                     </div>
                 </div>
+                <div id="dashboard-container">
+                    <div id="dashboard-charts">
+                        <div id="dashboard-chart-upper">
+                            <div id="linechart"></div>
+                        </div>
+                        <div id="dashboard-chart-bottom">
+                            <div id="power"></div>
+                            <div id="rsrp"></div>
+                        </div>
+                        
+                        
+                    </div>
+                    <div id="dashboard-status">
+                        <div id="ul-bytes"></div>
+                        <div id="dl-bytes"></div>
+                    </div>
+                </div>
+                <div id="tool-container"></div>
+                
             </div>
     
             <div id="footer">
@@ -155,6 +173,7 @@
                 
             </div>
     </div>
-    
+    <script src="js/echarts.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
